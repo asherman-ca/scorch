@@ -1,0 +1,34 @@
+@import './Nav.css';
+
+/* Resets */
+
+body {
+	margin: 0;
+	font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Globals */
+
+:root {
+	--clr-brown: rgb(71, 56, 40);
+	--clr-white: rgb(157, 157, 157);
+	--clr-black: rgb(31, 31, 31);
+}
+
+#root {
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background: var(--clr-black);
+}
