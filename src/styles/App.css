@@ -1,4 +1,6 @@
 @import './Nav.css';
+@import '../pages/Fight/Fight.css';
+@import '../pages/Splash/Splash.css';
 
 /* Resets */
 
@@ -21,6 +23,7 @@ a {
 	--clr-brown: rgb(71, 56, 40);
 	--clr-white: rgb(157, 157, 157);
 	--clr-black: rgb(31, 31, 31);
+	--clr-yellow: rgb(117, 103, 35);
 }
 
 #root {
@@ -29,6 +32,8 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 
 	background: var(--clr-black);
+	color: white;
 }

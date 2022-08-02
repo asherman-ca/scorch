@@ -11,13 +11,13 @@ const Nav = ({ log }) => {
 			</div>
 			<div className='buttons'>
 				<Link to={'/fight'} className='button'>
-					Fight
+					FIGHT
 				</Link>
 				<Link to={'/inventory'} className='button'>
-					Inventory
+					CHAR
 				</Link>
 				<Link to={'/menu'} className='button'>
-					Menu
+					MENU
 				</Link>
 			</div>
 		</div>
